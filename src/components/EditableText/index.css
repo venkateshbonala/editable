@@ -1,0 +1,45 @@
+.bg-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(to right, #f5d0fe, #d946ef);
+  height: 100vh;
+}
+
+.edit-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #ffffff;
+  width: 60%;
+  border-radius: 12px;
+  max-width: 606px;
+  padding: 24px;
+}
+
+.heading {
+  color: #000000;
+  font-family: 'Roboto';
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.input-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.input {
+  margin-right: 10px;
+}
+.button {
+  color: #ffffff;
+  background-color: #d946ef;
+  font-family: 'Roboto';
+  font-size: 20px;
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+}
